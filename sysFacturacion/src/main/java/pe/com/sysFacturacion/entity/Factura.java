@@ -6,6 +6,7 @@ import java.util.Date;
 
 public class Factura implements Serializable{
 	
+	
 	private Long id;
 	private String descripcion;
 	private String observacion;
