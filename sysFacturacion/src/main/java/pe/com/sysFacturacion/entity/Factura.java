@@ -3,6 +3,7 @@ package pe.com.sysFacturacion.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+
 public class Factura implements Serializable{
 	
 	private Long id;
