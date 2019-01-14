@@ -3,6 +3,11 @@ package pe.com.sysFacturacion.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="facturas")
 public class Factura implements Serializable{
 	
 	private Long id;
