@@ -1,5 +1,9 @@
 package pe.com.sysFacturacion.dao;
 
-public interface IClienteDao {
+import org.springframework.data.repository.PagingAndSortingRepository;
 
+import pe.com.sysFacturacion.entity.Cliente;
+
+public interface IClienteDao extends PagingAndSortingRepository<Cliente, Long>{
+	
 }
